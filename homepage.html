@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <link rel="shortcut icon" href="./Assets/HomePageLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./homepage.css">
+</head>
+<body>
+  <nav>
+    <section id="home_nav">
+        <img src="./assests/logo.png" alt="" id="homePageLogo">
+       <a href="#cart_items">
+        <i class="fa-solid fa-cart-shopping" id="cart"></i>
+       </a>
+        <span id="cart_value">0</span>
+    </section>
+    <section id="welcome_user">
+        <!-- <i class="fa-solid fa-user"></i> -->
+        <p id="welcome1">Welcome!</p>
+        <div id="welcome2">
+            <span id="user">Srinu</span>
+        </div>
+    </section>
+  </nav>
+  <section id="card_container"></section><br>
+
+<!-- !TO DISPLAY ON USER -->
+  <div id="cart_style">
+    <section id="cart_items" style="display: none;"></section>
+    <section id="prdocuct_price"></section>
+  </div><br>
+  <main id="price_container"></main>
+   <script src="./homepage.js"></script>
+
+</body>
+</html>
